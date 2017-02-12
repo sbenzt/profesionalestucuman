@@ -25,6 +25,7 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
 
     <!-- theme stylesheet -->
     <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
@@ -104,9 +105,9 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
-                    <img class="img-responsive" src="img/logo.png" alt="Obaju logo" class="hidden-xs">
-                    <img class="img-responsive" src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
+                 <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                    <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
+                    <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -404,7 +405,7 @@
 
 
 
-    <div id="all">
+<div id="all">
 
         <div id="content">
 
@@ -476,6 +477,8 @@
 
             <!-- *** HOT PRODUCT SLIDESHOW ***
  _________________________________________________________ -->
+
+            <!-- Hot -->
             <div id="hot">
 
                 <div class="box">
@@ -507,7 +510,7 @@
                             <div class="col-sm-6 col-md-3">
                                     <div class="form-group">
                                         <label for="state">Nombre</label>
-                                        <input type="text" class="form-control" id="state">
+                                        <input type="text" class="form-control" id="state" placeholder="Busqueda rapida">
                                     </div>
                             </div>
                             
@@ -518,68 +521,47 @@
                                     </div>
                             </div>
 
-                            <!-- Zonas -->
-                            <div class="yamm-content">
+                            <!-- Zonas!! -->
+                            <div class="zonas_menu">
                                     <div class="row">
-                                        <div class="col-sm-3"s>
-                                            <h5>Shop</h5>
+                                        <div class="col-sm-4"s>
+                                            <h5>Principales Ciudades</h5>
                                             <ul id="filters" class="clearfix animate-box fadeInUp animated">
                                                 <li><span class="filter active" data-filter=".all">Capital</span></li>
                                                 <li><span class="filter" data-filter=".app">Yerba Buena</span></li>
-                                                <li><span class="filter" data-filter=".card">Tafí Viejo</span></li>
                                                 <li><span class="filter" data-filter=".icon">La Banda</span></li>
-                                                <li><span class="filter" data-filter=".logo">Alderetes</span></li>
+                                                <li><span class="filter" data-filter=".card">Tafí Viejo</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Concepción</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Aguilares</span></li>
                                                 <li><span class="filter" data-filter=".laste">Lastenia</span></li>
+                                                <li><span class="filter" data-filter=".logo">Alderetes</span></li>
                                                 <li><span class="filter" data-filter=".ranchi">Ranchillos</span></li>
-                                                                        </ul>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <h5>User</h5>
-                                            <ul>
-                                                <li><a href="register.html">Register / login</a>
-                                                </li>
-                                                <li><a href="customer-orders.html">Orders history</a>
-                                                </li>
-                                                <li><a href="customer-order.html">Order history detail</a>
-                                                </li>
-                                                <li><a href="customer-wishlist.html">Wishlist</a>
-                                                </li>
-                                                <li><a href="customer-account.html">Customer account / change password</a>
-                                                </li>
                                             </ul>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <h5>Order process</h5>
-                                            <ul>
-                                                <li><a href="basket.html">Shopping cart</a>
-                                                </li>
-                                                <li><a href="checkout1.html">Checkout - step 1</a>
-                                                </li>
-                                                <li><a href="checkout2.html">Checkout - step 2</a>
-                                                </li>
-                                                <li><a href="checkout3.html">Checkout - step 3</a>
-                                                </li>
-                                                <li><a href="checkout4.html">Checkout - step 4</a>
-                                                </li>
+                                        <div class="col-sm-4">
+                                            <h5>Departamentos</h5>
+                                            <ul id="filters" class="clearfix animate-box fadeInUp animated">
+                                                <li><span class="filter active" data-filter=".all">Burruyacú</span></li>
+                                                <li><span class="filter" data-filter=".app">Chicligasta</span></li>
+                                                <li><span class="filter" data-filter=".icon">Cruz Alta</span></li>
+                                                <li><span class="filter" data-filter=".card">Famaillá</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Graneros</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Juan Bautista Alberdi</span></li>
+                                                <li><span class="filter" data-filter=".laste">La Cocha</span></li>
+                                                <li><span class="filter" data-filter=".logo">Leales</span></li>
                                             </ul>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <h5>Pages and blog</h5>
-                                            <ul>
-                                                <li><a href="blog.html">Blog listing</a>
-                                                </li>
-                                                <li><a href="post.html">Blog Post</a>
-                                                </li>
-                                                <li><a href="faq.html">FAQ</a>
-                                                </li>
-                                                <li><a href="text.html">Text page</a>
-                                                </li>
-                                                <li><a href="text-right.html">Text page - right sidebar</a>
-                                                </li>
-                                                <li><a href="404.html">404 page</a>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a>
-                                                </li>
+                                        <div class="col-sm-4">
+                                            <h5>Despartamentos</h5>
+                                            <ul id="filters" class="clearfix animate-box fadeInUp animated">
+                                                <li><span class="filter active" data-filter=".all">Lules</span></li>
+                                                <li><span class="filter" data-filter=".app">Monteros</span></li>
+                                                <li><span class="filter" data-filter=".icon">Río Chico</span></li>
+                                                <li><span class="filter" data-filter=".card">Simoca</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Tafí del Valle</span></li>
+                                                <li><span class="filter" data-filter=".ranchi">Tafí Viejo</span></li>
+                                                <li><span class="filter" data-filter=".laste">Trancas</span></li>
+                                                <li><span class="filter" data-filter=".logo">Yerba Buena</span></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -589,10 +571,15 @@
                     </div>
                 </div>
 
+            </div>
+            <!-- /#hot -->
+            
+            <!-- list profession -->
             <div id="portfoliolist" class="animate-box  container">
 
-                    <!--Sección Capital-->
+                <!--Sección Capital-->
                 
+                <!-- fila -->
                 <div class="row">
                      <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
@@ -612,9 +599,10 @@
                         </div>
                     </div>
                 </div>
-
                 <br>
+                <!-- /fila -->
 
+                <!-- fila -->
                 <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
@@ -632,6 +620,11 @@
                         </div>
                     </div>
                 </div>
+                <br>
+                <!-- /fila -->
+
+                <!-- fila -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/bromatologos.jpg" alt="" />
@@ -647,6 +640,12 @@
                             <img class="img-responsive" src="img/profesiones/contadores.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+                <!-- fila -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/csocial.jpg" alt="" />
@@ -662,6 +661,12 @@
                             <img class="img-responsive" src="img/profesiones/diseñadores.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+                <!-- fila -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/docentes.jpg" alt="" />
@@ -677,6 +682,12 @@
                             <img class="img-responsive" src="img/profesiones/enfermeros.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+                
+                <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/escribanos.jpg" alt="" />
@@ -692,6 +703,12 @@
                             <img class="img-responsive" src="img/profesiones/filosofos.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/fisicos.jpg" alt="" />
@@ -707,6 +724,12 @@
                             <img class="img-responsive" src="img/profesiones/fotografos.jpg" alt="" />
                         </div>
                     </div>
+                 </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/geologos.jpg" alt="" />
@@ -722,6 +745,12 @@
                             <img class="img-responsive" src="img/profesiones/ingenieros.jpg" alt="" />
                         </div>
                     </div>
+                 </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/kinesiologos.jpg" alt="" />
@@ -737,6 +766,12 @@
                             <img class="img-responsive" src="img/profesiones/marketing.jpg" alt="" />
                         </div>
                     </div>
+                 </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/rrhh.jpg" alt="" />
@@ -752,16 +787,17 @@
                             <img class="img-responsive" src="img/profesiones/matematicos.jpg" alt="" />
                         </div>
                     </div>
-                    <<div class="portfolio all col-md-4" data-cat="all">
+                 </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
+                    <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/medicos.jpg" alt="" />
                         </div>
                     </div>
-
-                   
-
-
-
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/myc.jpg" alt="" />
@@ -772,6 +808,12 @@
                             <img class="img-responsive" src="img/profesiones/nutricionistas.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/obstetras.jpg" alt="" />
@@ -787,6 +829,12 @@
                             <img class="img-responsive" src="img/profesiones/oftalmologos.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/pedagogos.jpg" alt="" />
@@ -802,6 +850,12 @@
                             <img class="img-responsive" src="img/profesiones/politologos.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/procuradores.jpg" alt="" />
@@ -817,6 +871,12 @@
                             <img class="img-responsive" src="img/profesiones/quimicos.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <br>
+                <!-- /fila -->
+
+               <!-- filA -->
+                <div class="row">
                     <div class="portfolio all col-md-4" data-cat="all">
                         <div class="portfolio-wrapper">             
                             <img class="img-responsive" src="img/profesiones/sociologos.jpg" alt="" />
@@ -827,18 +887,12 @@
                             <img class="img-responsive" src="img/profesiones/veterinarios.jpg" alt="" />
                         </div>
                     </div>
-
-
-                                                                                                                        
                 </div>
-
+                <br>
+                <!-- /fila -->                                                                                                         
             </div>
-            <!-- /#hot -->
-
-            <!-- *** HOT END *** -->
-
-            <!-- *** GET INSPIRED ***
- _________________________________________________________ -->
+            <!-- /list profession -->
+ <!-- _________________________________________________________ -->
             <div class="container" data-animate="fadeInUpBig">
                 <div class="col-md-12">
                     <div class="box slideshow">
@@ -1082,7 +1136,7 @@
 
 
 
-    </div>
+</div>
     <!-- /#all -->
 
 
@@ -1091,6 +1145,8 @@
     <!-- *** SCRIPTS TO INCLUDE ***
  _________________________________________________________ -->
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.cookie.js"></script>
     <script src="js/waypoints.min.js"></script>
@@ -1098,8 +1154,6 @@
     <script src="js/bootstrap-hover-dropdown.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.mixitup.min.js"></script>
     <script type="text/javascript">
     $(function () {
         

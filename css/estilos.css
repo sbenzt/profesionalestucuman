@@ -1,0 +1,7 @@
+.zonas_menu ul {
+	list-style: none;
+}
+.zonas_menu ul li span{
+	color:#4fbfa8;
+	cursor: pointer;
+}
