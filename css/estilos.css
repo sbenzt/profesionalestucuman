@@ -14,3 +14,25 @@
 .especialidades{
 	margin-bottom: 20px;
 }
+
+
+.box-profile img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin:0 auto;
+}
+
+.box-profile h4{
+	color:#4fbfa8;
+}
+
+.box-profile p{
+	margin-top: -12px;
+}
+
+.btn-disabled{
+	background-color: #6b6b6b;
+	color:#cacaca;
+
+}
